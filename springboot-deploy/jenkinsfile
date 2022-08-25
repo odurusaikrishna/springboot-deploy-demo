@@ -6,7 +6,7 @@ node {
      try {
         stage('Clone Repo') {
 
-               git url: 'https://gitlab.com/gpranataAsyst/springboot-demodeploy.git',
+               git url: 'https://github.com/odurusaikrishna/springboot-deploy-demo.git',
                    credentialsId: 'springdeploy-user',
                    branch: 'main'
 
